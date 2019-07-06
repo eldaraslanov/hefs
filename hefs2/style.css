@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    width: 100%;
+    background: black;
+    margin: 0 auto;
+    position: relative;
+}
+a{
+    cursor: pointer;
+}
+.navigation>li{
+    display: inline-block;
+    position: relative;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.navigation>li>a{
+    display: inline-block;
+    position: relative;
+}
+.navigation>li:hover .child{
+    display: block;
+}
+.navigation a :hover{
+    color: blue;
+    background: y#999;
+}
+.child{
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 30; 
+    background: black;
+    display: none;
+    overflow: hidden;
+}
+.child a{
+    display: block;
+}
+.search{
+    height: 32px;
+    background: aqua;
+    border: none;
+    color: #fff;
+    outline: none;
+    margin-left: 20px;
+}
+.mleft{
+    margin-left: 70px;
+}
